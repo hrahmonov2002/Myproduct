@@ -1,0 +1,158 @@
+.hero {
+    &__inner {
+        padding: 25px 0px 57px 0px;
+        display: flex;
+    }
+
+    &__content {
+        margin-top: 120px;
+        width: 518px;
+    }
+
+    &__heading {
+        margin: 0;
+        margin-bottom: 18px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+        color: #22343d;        
+    }
+
+    &__text {
+        margin: 0;
+        margin-bottom: 45px;
+        font-size: 18px;
+        line-height: 28px;  
+        color: #22343d;
+    }
+
+    &__link {
+        @include link-underline;
+        padding: 15px 41px 14px 41px;
+        background-color: #02897a;
+        border-radius: 4px;
+        color: #fff;
+        &:hover {
+            color: #02344e;
+        }
+    }
+
+    &__video-link {
+        margin-left: 30px;
+        color: #02897a;
+        &:hover {
+            color: #02344e;
+        }
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .hero {
+        &__inner {
+            padding: 25px 10px 57px 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .hero {
+        &__inner {
+          display: flex;
+          text-align: center;
+          align-items: center;
+          flex-direction: column-reverse;
+        }
+
+        &__content {
+            margin-top: 30px;
+        }
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .hero {
+      &__img {
+        width: 500px;
+        height: 450px;
+      }
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    .hero {
+      &__content {
+        max-width: 400px;
+      }
+
+      &__heading {
+        font-size: 36px;
+        line-height: 60px;
+       }
+
+      &__img {
+        width: 400px;
+        height: 350px;
+      }
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .hero {
+      &__content {
+        max-width: 338px;
+      }
+
+      &__img {
+        width: 339px;
+        height: 310px;
+      }
+
+      &__link {
+        padding: 15px 24px 14px 24px;
+        margin-left: -20px;
+      }
+
+      &__video-link {
+        margin-left: 10px;  
+      }
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .hero {
+     &__heading {
+        font-size: 28px;
+        line-height: 40px;   
+     }
+
+      &__img {
+        width: 320px;
+        height: 290px;
+      }
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .hero {
+      &__inner {
+        padding: 25px 0px 50px 0px;
+      }
+
+      &__content {
+        max-width: 320px;
+      }
+
+       &__text {
+        font-size: 15px;
+       }
+
+       &__img {
+        width: 290px;
+        height: 260px;
+       }
+
+       &__link {
+        margin-left: 0;
+       }
+    }
+}

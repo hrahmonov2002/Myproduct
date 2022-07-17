@@ -1,0 +1,235 @@
+.service {
+    &__inner {
+        padding: 120px 0px 75px 0px;
+    }
+
+    &__span {
+        margin: 0;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;  
+        color: #22343d;
+    }
+
+    &__header-heading {
+        margin: 0;
+        margin-top: 8px;
+        margin-bottom: 131px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        color: #22343d;  
+    }
+
+    &__big-content {
+        display: flex;
+        margin-bottom: 150px;
+    }
+    
+    &__big-content:nth-child(2){
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    &__big-content:nth-child(3){
+        margin: 0;
+    }
+
+    &__little-content {
+        max-width: 486px;
+    }
+
+    &__heading {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        color: #22343d   
+    }
+
+    &__list {
+        @include list-unnderline;
+    }
+
+    &__item {
+        margin-bottom: 25px;
+    }
+
+    &__title {
+        margin: 0;
+        margin-bottom: 12px;
+        font-weight: 600;  
+        color: #22343d; 
+    }
+
+    &__text {
+        margin: 0;
+    }
+
+    &__img-one {
+        margin-left: 84px;
+        width: 540px;
+        height: 473px;
+    }
+
+    &__img-two {
+        margin-right: 94px;
+        width: 543px;
+        height: 500px;
+    }
+
+    &__img-three {
+        margin-left: 84px;
+        width: 542px;
+        height: 451px;
+    }
+
+    &__center-item {
+        display: flex;
+    }
+
+    &__icon {
+        margin-top: 25px;
+        margin-right: 35px;
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .service {
+        &__big-content {
+            margin-bottom: 90px;
+            text-align: center;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+
+        &__big-content:nth-child(2){
+            text-align: center;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        &__header-heading {
+            margin: 0;
+            margin-bottom: 30px;
+        }
+
+        &__img-one {
+           margin-bottom: 30px;
+           }
+    
+           &__img-two {
+            margin: 0;
+           margin-bottom: 30px;
+           }
+    
+           &__img-three {
+           margin-bottom: 30px;
+           }
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .service {
+       &__img-one {
+        width: 349px;
+        height: 306px;
+       }
+
+       &__img-two {
+        width: 350px;
+        height: 319px;
+       }
+
+       &__img-three {
+        width: 350px;
+        height: 291px;
+       }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .service {
+       &__img-one {
+        margin-left: -50px;
+       }
+
+       &__img-two {
+       margin-left: -50px;
+       }
+
+       &__img-three {
+       margin-left: -50px;
+       }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .service {
+       &__img-one {
+        margin-left: -20px;
+       }
+
+       &__img-two {
+       margin-left: -20px;
+       }
+
+       &__img-three {
+       margin-left: -20px;
+       }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .service {
+        &__big-content {
+            text-align: left;
+        }
+
+        &__big-content:nth-child(2){
+            text-align: left;
+        }
+
+        &__header-heading {
+            margin: 0;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .service {
+       &__img-one {
+        width: 320px;
+        height: 283px;
+       }
+
+       &__img-two {
+        width: 320px;
+        height: 291px;
+       }
+
+       &__img-three {
+        width: 320px;
+        height: 261px;
+       }
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .service {
+       &__img-one {
+        margin-left: 0px;
+       }
+
+       &__img-two {
+       margin-left: 0px;
+       }
+
+       &__img-three {
+       margin-left: 0px;
+       }
+    }
+}

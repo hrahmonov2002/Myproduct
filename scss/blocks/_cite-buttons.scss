@@ -1,0 +1,62 @@
+.nav {
+    &__button-white {
+        padding: 10px 25px 9px 22px;
+        margin-top: -7px;
+        font-weight: 600;
+        line-height: 24px;   
+        border: 1px solid #bcd0E5;
+        border-radius: 4px; 
+        background-color: transparent;
+        color: #173a56; 
+        &:hover {
+            background-color: #02897a;
+            color: #fff;
+        }
+        &:active {
+            background-color: transparent;
+            color: #173a56; 
+        }
+    }
+
+    &__button {
+        padding: 12px 25px 10px 23px;
+        margin-top: -7px;
+        font-weight: 600;
+        line-height: 24px;   
+        background-color: #02897a;
+        border-radius: 4px;    
+        border: none;    
+        color: #fff;
+        &:hover {
+            box-shadow: 0px 0px 0px 1px #bcd0E5;
+            background-color: transparent;
+            color: #173a56; 
+        }
+        &:active {
+            border: none;
+            background-color: #02897a;
+            color: #fff;
+        }
+    }
+}
+
+.built__button {
+    padding: 15px 32px 14px 32px;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    background-color: #02897a;
+    color: #fff;
+    &:hover {
+        box-shadow: 0px 0px 0px 1px #bcd0E5;
+        background-color: transparent;
+        color: #22343d;
+    }
+
+    &:active {
+        box-shadow: none;
+        border-radius: 4px;
+        background-color: #02897a;
+        color: #fff;  
+    }
+}
